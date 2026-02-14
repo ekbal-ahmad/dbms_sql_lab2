@@ -1,12 +1,3 @@
--- =====================================================
--- DB-LAB-4 FINAL PROGRAM
--- Data Retrieval Using SQL (Read-Only Queries)
--- Based on DB-LAB-3 Tables
--- Oracle SQL Developer Compatible
--- =====================================================
-
-
--- ==============================
 -- PART A: BASIC DATA DISPLAY
 -- ==============================
 
@@ -152,3 +143,4 @@ SELECT
     Name,
     SUBSTR(Email, INSTR(Email,'@')+1) AS Email_Domain
 FROM Faculty;
+
